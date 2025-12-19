@@ -1,45 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <article class="cards-intro">
+        <h1 class="cards-intro__title">
+          <span class="cards-intro__subtitle"
+            >Reliable, efficient delivery</span
+          >
+          <span class="cards-intro__main-title">Powered by Technology</span>
+        </h1>
+        <p class="cards-intro__description">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </article>
+      <section class="cards-layout">
+        <article class="card card--supervisor">
+          <h2 class="card__title">Supervisor</h2>
+          <p class="card__description">
+            Monitors activity to identify project roadblocks
+          </p>
+        </article>
+        <article class="card card--team">
+          <h2 class="card__title">Team Builder</h2>
+          <p class="card__description">
+            Scans our talent network to create the optimal team for your project
+          </p>
+        </article>
+        <article class="card card--karma">
+          <h2 class="card__title">Karma</h2>
+          <p class="card__description">
+            Regularly evaluates our talent to ensure quality
+          </p>
+        </article>
+        <article class="card card--calculator">
+          <h2 class="card__title">Calculator</h2>
+          <p class="card__description">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+        </article>
+      </section>
+    </main>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
 </html>
