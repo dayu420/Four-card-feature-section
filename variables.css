@@ -1,0 +1,80 @@
+:root {
+  /* =========================
+     Font families
+  ========================= */
+
+  --font-family-base: "Poppins", sans-serif;
+  --font-family-heading: "Poppins", sans-serif;
+
+  /* =========================
+     Font weights
+  ========================= */
+
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* =========================
+     Text presets
+  ========================= */
+
+  /* Headings */
+  --text-heading-xl-size: 2rem;
+  --text-heading-xl-line: 1;
+
+  /* Body */
+  --text-body-md-size: 1rem;
+  --text-body-md-line: 1.6;
+
+  --text-ui-md-size: 1rem;
+  --text-ui-md-line: 1.1;
+
+  --text-body-sm-size: 0.875rem;
+  --text-body-sm-line: 1.4;
+
+  --text-body-xs-size: 0.75rem;
+  --text-body-xs-line: 1.3;
+
+  /* =========================
+     Raw color palette (no meaning)
+  ========================= */
+
+  --red-400: hsl(0, 78%, 62%);
+  --cyan-400: hsl(180, 62%, 55%);
+  --orange-400: hsl(34, 97%, 64%);
+  --blue-400: hsl(212, 86%, 64%);
+
+  /* =========================
+     Semantic colors
+  ========================= */
+
+  --color-primary: var(--blue-400);
+  --color-danger: var(--red-400);
+
+  /* =========================
+     Decorative card accents
+  ========================= */
+
+  --color-card-team: var(--red-400);
+  --color-card-supervisor: var(--cyan-400);
+  --color-card-karma: var(--orange-400);
+  --color-card-calculator: var(--blue-400);
+
+  /* =========================
+     Neutral colors
+  ========================= */
+
+  --color-neutral-500: hsl(228, 12%, 48%);
+  --color-neutral-400: hsl(212, 6%, 44%);
+  --color-neutral-0: hsl(0, 0%, 100%);
+
+  /* =========================
+     Spacing scale
+  ========================= */
+
+  --space-50: 0.25rem;
+  --space-100: 0.5rem;
+  --space-200: 1rem;
+  --space-300: 1.5rem;
+  --space-400: 2rem;
+  --space-500: 2.5rem;
+}
