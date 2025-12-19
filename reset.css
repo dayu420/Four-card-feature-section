@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margins */
+* {
+  margin: 0;
+}
+
+/* 3. Body defaults */
+body {
+    font-size: 15px;
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family: system-ui, sans-serif;
+}
+
+/* 4. Media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 5. Form elements inherit font */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
