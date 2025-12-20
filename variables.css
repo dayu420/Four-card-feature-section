@@ -10,8 +10,10 @@
      Font weights
   ========================= */
 
+  --font-weight-extra-light: 200;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
+  --font-weight-semi-bold: 700;
 
   /* =========================
      Text presets
