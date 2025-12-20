@@ -20,12 +20,17 @@
   ========================= */
 
   /* Headings */
-  --text-heading-xl-size: 2.4rem;
-  --text-heading-xl-line: 1;
-
-  --text-heading-lg-size: 1.42rem;
-  --text-heading-lg-line: 1.4; 
+  --text-heading-lg-size: 2.4rem;
+  --text-heading-lg-line: 1.4;
   --text-heading-lg-letter: 0.25px;
+
+  --text-heading-md-size: 1.6rem;
+  --text-heading-md-line: 1.4; 
+  --text-heading-md-letter: 0.25px;
+
+  --text-heading-sm-size: 1.33rem; 
+  --text-heading-sm-line: 1.4; 
+  --text-heading-sm-letter: 0.25px;
 
   /* Body */
   --text-body-md-size: 1rem;
