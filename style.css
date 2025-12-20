@@ -1,8 +1,38 @@
+body {
+    font-size: 15px;
+    font-family: var(--font-family-base);
+    line-height: var(--text-body-md-line);
+    letter-spacing: 0.1px;
+}
 
 
+.cards-intro__title .cards-intro__subtitle {
+    font-weight: var(--font-weight-extra-light);
+}
 
+.cards-intro__title .cards-intro__main-title {
+    font-weight: var(--font-weight-semi-bold);
 
+}
 
+.cards-intro__title .cards-intro__subtitle, .cards-intro__title .cards-intro__main-title {
+    font-size: var(--text-heading-md-size);
+    line-height: var(--text-heading-md-line);
+    letter-spacing: var(--text-heading-md-letter);
+    color: var(--color-neutral-500);
+}
+
+.cards-intro__description, .card__description {
+    color: var(--color-neutral-400);
+}
+
+.card__title {
+    font-size: var(--text-heading-sm-size);
+    font-weight: var(--font-weight-semi-bold);
+    line-height: var(--text-heading-sm-line);
+    letter-spacing: var(--text-heading-sm-letter);
+    color: var(--color-neutral-500);
+}
 
 
 
