@@ -34,3 +34,9 @@ textarea,
 select {
   font: inherit;
 }
+
+/* 6. Heading elements inherit font size and weight*/
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
