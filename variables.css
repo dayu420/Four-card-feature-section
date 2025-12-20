@@ -23,8 +23,8 @@
   --text-heading-xl-size: 2.4rem;
   --text-heading-xl-line: 1;
 
-  --text-heading-lg-size: 1.25rem;
-  --text-heading-lg-line: 1.25rem; 
+  --text-heading-lg-size: 1.42rem;
+  --text-heading-lg-line: 1.4; 
   --text-heading-lg-letter: 0.25px;
 
   /* Body */
@@ -33,6 +33,7 @@
 
   --text-body-sm-size: 0.866rem;
   --text-body-sm-line: 1.6;
+  --text-body-sm-letter: 0.09px;
   
   --text-body-xs-size: 0.75rem;
   --text-body-xs-line: 1.3;
