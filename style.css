@@ -1,129 +1,55 @@
 body {
-    font-size: 15px;
-    font-family: var(--font-family-base);
-    line-height: var(--text-body-md-line);
-    letter-spacing: 0.1px;
+  font-size: 15px;
+  font-family: var(--font-family-base);
+  line-height: var(--text-body-md-line);
+  letter-spacing: 0.1px;
 }
 
+h1 span {
+  display: block;
+}
+
+.cards-intro {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-400);
+  margin: 0 auto;
+}
 
 .cards-intro__title .cards-intro__subtitle {
-    font-weight: var(--font-weight-extra-light);
+  font-weight: var(--font-weight-extra-light);
 }
 
 .cards-intro__title .cards-intro__main-title {
-    font-weight: var(--font-weight-semi-bold);
-
+  font-weight: var(--font-weight-semi-bold);
 }
 
-.cards-intro__title .cards-intro__subtitle, .cards-intro__title .cards-intro__main-title {
-    font-size: var(--text-heading-md-size);
-    line-height: var(--text-heading-md-line);
-    letter-spacing: var(--text-heading-md-letter);
-    color: var(--color-neutral-500);
+.cards-intro__title .cards-intro__subtitle,
+.cards-intro__title .cards-intro__main-title {
+  font-size: var(--text-heading-md-size);
+  line-height: var(--text-heading-md-line);
+  letter-spacing: var(--text-heading-md-letter);
+  color: var(--color-neutral-500);
 }
 
-.cards-intro__description, .card__description {
-    color: var(--color-neutral-400);
+.cards-intro__description,
+.card__description {
+  color: var(--color-neutral-400);
 }
 
 .card__title {
-    font-size: var(--text-heading-sm-size);
-    font-weight: var(--font-weight-semi-bold);
-    line-height: var(--text-heading-sm-line);
-    letter-spacing: var(--text-heading-sm-letter);
-    color: var(--color-neutral-500);
+  font-size: var(--text-heading-sm-size);
+  font-weight: var(--font-weight-semi-bold);
+  line-height: var(--text-heading-sm-line);
+  letter-spacing: var(--text-heading-sm-letter);
+  color: var(--color-neutral-500);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
