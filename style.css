@@ -3,7 +3,8 @@ body {
   font-family: var(--font-family-base);
   line-height: var(--text-body-md-line);
   letter-spacing: 0.1px;
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .wrapper {
@@ -56,7 +57,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: var(--space-400);
-    padding: 4rem 0;
+    padding-top: 4rem;
 }
 
 .card {
@@ -115,6 +116,10 @@ body {
     height: auto;
 }
 
+footer {
+    margin-top: auto;
+}
+
 
 .attribution {
   font-size: 11px;
@@ -123,4 +128,41 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+@media (min-width: 48rem) {
+    .wrapper {
+        padding: var(--space-400);
+    }
+
+    .cards-layout {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "team team"
+            "supervisor karma"
+            "calculator calculator";
+        justify-content: start;
+        gap: var(--space-400);
+    }
+
+    .card {
+        max-width: 21rem;
+        margin-inline: auto;
+    }
+
+    .card--team {
+        grid-area: team;
+    }
+    .card--supervisor {
+        grid-area: supervisor;
+    }
+    .card--karma {
+        grid-area: karma;
+    }
+    .card--calculator {
+        grid-area: calculator;
+    }
+    
 }
