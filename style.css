@@ -3,17 +3,22 @@ body {
   font-family: var(--font-family-base);
   line-height: var(--text-body-md-line);
   letter-spacing: 0.1px;
+  min-height: 100vh;
 }
 
-h1 span {
-  display: block;
+.wrapper {
+    padding: var(--space-300);
+}
+
+.cards-intro__title span {
+    display: block;
 }
 
 .cards-intro {
+  text-align: center;
   display: flex;
   flex-direction: column;
-  padding: var(--space-400);
-  margin: 0 auto;
+  gap: var(--space-200);
 }
 
 .cards-intro__title .cards-intro__subtitle {
@@ -37,6 +42,65 @@ h1 span {
   color: var(--color-neutral-400);
 }
 
+.cards-intro__description {
+  max-width: 32ch;
+  margin-inline: auto;
+}
+
+.card__description {
+    max-width: 30ch;
+}
+
+
+.cards-layout {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-400);
+    padding: 4rem 0;
+}
+
+.card {
+  --card-accent: transparent;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-400);
+  padding: var(--space-400);
+  border-radius: 0.5rem;
+  background-color: var(--color-neutral-0);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.25rem;          /* stripe thickness */
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-color: var(--card-accent);
+}
+
+.card--supervisor {
+    --card-accent: var(--color-card-supervisor);
+}
+.card--team {
+    --card-accent: var(--color-card-team);
+}
+.card--karma {
+    --card-accent: var(--color-card-karma);
+}
+.card--calculator {
+    --card-accent: var(--color-card-calculator);
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-100);
+}
+
 .card__title {
   font-size: var(--text-heading-sm-size);
   font-weight: var(--font-weight-semi-bold);
@@ -44,6 +108,13 @@ h1 span {
   letter-spacing: var(--text-heading-sm-letter);
   color: var(--color-neutral-500);
 }
+
+.card__icon {
+    width: 3.5rem;
+    align-self: flex-end;
+    height: auto;
+}
+
 
 .attribution {
   font-size: 11px;
