@@ -77,7 +77,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 0.25rem;          /* stripe thickness */
+  height: 0.25rem;
   width: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
   background-color: var(--card-accent);
@@ -133,7 +133,9 @@ footer {
 
 @media (min-width: 48rem) {
     .wrapper {
+        max-width: 48rem;
         padding: var(--space-400);
+        margin-inline: auto;
     }
 
     .cards-layout {
@@ -143,11 +145,10 @@ footer {
             "team team"
             "supervisor karma"
             "calculator calculator";
-        justify-content: start;
         gap: var(--space-400);
     }
 
-    .card {
+    .cards-layout .card {
         max-width: 21rem;
         margin-inline: auto;
     }
@@ -164,5 +165,27 @@ footer {
     .card--calculator {
         grid-area: calculator;
     }
+
+  }
+
     
+@media (min-width: 64rem) {
+    .wrapper {
+      max-width: 70rem;
+      margin-inline: auto;
+    }
+
+    .cards-layout {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "supervisor team calculator"
+            "supervisor karma calculator";
+        align-items: center;
+        gap: var(--space-400);
+    }
+
+
 }
+
+
